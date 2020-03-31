@@ -7,9 +7,9 @@ public class Persona {
     int edad;
     
     //metodo constructor
-    public Persona(String _nombre, int _edad){
-        nombre = _nombre; 
-        edad = _edad;      
+    public Persona(String nombre, int edad){
+        this.nombre = nombre; //this para decir cual es atributo
+        this.edad = edad; // el que no tiene this es el parametro osea el valor a asignarle al atributo     
     }
     
     public void mostrarDatos(){
